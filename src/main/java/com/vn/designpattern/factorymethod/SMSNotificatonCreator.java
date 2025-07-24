@@ -1,6 +1,7 @@
-package com.vn.designpattern.service;
+package com.vn.designpattern.factorymethod;
 
-import com.vn.designpattern.factorymethod.NotificationCreator;
+import com.vn.designpattern.service.NotificationService;
+import com.vn.designpattern.service.SMSNotificationService;
 
 public class SMSNotificatonCreator implements NotificationCreator {
 
